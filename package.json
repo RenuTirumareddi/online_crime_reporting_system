@@ -1,0 +1,31 @@
+{
+  "name": "online_crime_reporting_system",
+  "version": "1.0.0",
+  "description": "An online system that is used to report the a crime",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenuTirumareddi/online_crime_reporting_system.git"
+  },
+  "author": "Renu Tirumareddi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RenuTirumareddi/online_crime_reporting_system/issues"
+  },
+  "homepage": "https://github.com/RenuTirumareddi/online_crime_reporting_system#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.5.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "moongose": "^1.0.0",
+    "nodemon": "^3.1.9"
+  }
+}
